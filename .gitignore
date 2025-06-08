@@ -1,5 +1,21 @@
-# Ignore Gradle project-specific cache directory
-.gradle
+# Gradle
+.gradle/
+build/
+gradle-app.setting
+!gradle-wrapper.jar
 
-# Ignore Gradle build output directory
-build
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Application
+*.db
+*.log
